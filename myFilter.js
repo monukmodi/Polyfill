@@ -1,8 +1,9 @@
-// Normal Filter function
 //  ====> Filter ===>>
 // Filter always returns a new Array
 // It does not effect the original Array
 let arr = [1, 2, 3, 4, 5]
+
+// Normal Filter function
 
 let myArrFiltered = arr.filter((val) => val % 2 == 0)
 
